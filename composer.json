@@ -1,0 +1,26 @@
+{
+  "name": "ajur-media/json-ld-generator",
+  "description": "Extremely simple JSON-LD markup generator (AJUR Media fork)",
+  "keywords": ["json-ld", "generator", "schema", "structured-data"],
+  "license": "BSD-2-Clause",
+  "authors": [
+    {
+      "name": "Daniel Stainback",
+      "email": "torann@gmail.com"
+    },
+    {
+      "name": "Karel Wintersky",
+      "email": "karel.wintersky@yandex.ru"
+    }
+  ],
+  "require": {
+    "php": ">=7.4 | 8.*",
+    "ext-json": "*",
+    "ext-mbstring": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "AJUR\\Toolkit\\JsonLd\\": "src/"
+    }
+  }
+}
