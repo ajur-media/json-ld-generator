@@ -22,5 +22,8 @@
     "psr-4": {
       "AJUR\\Toolkit\\JsonLd\\": "src/"
     }
+  },
+  "replace": {
+    "torann/json-ld": "*"
   }
 }

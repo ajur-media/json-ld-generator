@@ -200,7 +200,7 @@ abstract class AbstractContext implements ContextTypeInterface
      *
      * @return array
      */
-    protected function getNestedContext(string $class, array $attributes = null)
+    protected function getNestedContext(string $class, $attributes = null)
     {
         // Must be an array
         if (\is_array($attributes) === false) {
@@ -284,11 +284,11 @@ abstract class AbstractContext implements ContextTypeInterface
      * Get property value from attributes.
      *
      * @param array $template
-     * @param array $props
+     * @param $props
      *
      * @return mixed
      */
-    protected function mapProperty(array $template = [], $props = [])
+    protected function mapProperty(array $template, $props)
     {
         // No values set
         if (\is_array($props) === false) {

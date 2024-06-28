@@ -7,7 +7,7 @@ use AJUR\Toolkit\JsonLd\Contracts\ContextTypeInterface;
 
 class Context
 {
-    public const DEFAULT_JSON_ENCODE_FLAGS = JSON_HEX_APOS | JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES;
+    public const DEFAULT_JSON_ENCODE_FLAGS = JSON_HEX_APOS | JSON_UNESCAPED_UNICODE /*| JSON_UNESCAPED_SLASHES*/;
 
     public const CONTEXT_TYPES_NAMESPACE = '\\AJUR\Toolkit\\JsonLd\\ContextTypes\\';
     /**
